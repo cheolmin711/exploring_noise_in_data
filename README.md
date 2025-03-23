@@ -4,7 +4,9 @@ Website for an introduction to our project:
 https://cheolmin711.github.io/exploring_noise_in_data/
 
 Our experiment is based on the foundings of these papers:
+
 Belkin, M., Hsu, D., Ma, S., & Mandal, S. (2019). Reconciling modern machine-learning practice and the classical bias–variance trade-off. Proceedings of the National Academy of Sciences, 116(32), 15849–15854. https://doi.org/10.1073/pnas.1903070116
+
 Belkin, M., Ma, S., & Mandal, S. (2018). To understand deep learning we need to understand kernel learning. arXiv.org. https://arxiv.org/abs/1802.01396
 
 ### Models Supported:
