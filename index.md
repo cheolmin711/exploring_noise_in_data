@@ -47,3 +47,9 @@ Unlike in label corruption, each model is fairly resistant to random corruption.
 ### Side note about error bars
 
 In the figures for random forests and neural networks, each line contains error bars while the figures for kernel machines and k-nearest neighbors do not. This is because of the way these models are trained. In the training process for random forests and neural networks, there is a given randomness while kernel machines and k-nearest neighbors do not assuming that the dataset is the same. This means that with a given dataset, training multiple random forests or neural networks with the same parameters will produce variation in the results whereas training multiple kernel machines or k-nearest neighbor classifiers will always produce the same results. Therefore, in order to capture this randomness the random forests and neural networks were run multiple times to show such variation. Then using the results, the lines for these models are the average of the accuracies of each instance run at that level of corruption and the error bars represent the minimum and maximum accuracy of all instances.
+
+### Our experiment is based on the foundings of these papers:
+
+Belkin, M., Hsu, D., Ma, S., & Mandal, S. (2019). Reconciling modern machine-learning practice and the classical bias–variance trade-off. Proceedings of the National Academy of Sciences, 116(32), 15849–15854. https://doi.org/10.1073/pnas.1903070116
+
+Belkin, M., Ma, S., & Mandal, S. (2018). To understand deep learning we need to understand kernel learning. arXiv.org. https://arxiv.org/abs/1802.01396
