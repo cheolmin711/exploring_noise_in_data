@@ -4,7 +4,7 @@ Robert Dunn, Cheolmin Hwang, Amelia Kawasaki
 
 ### Why do we care about noise in our data?
 
-Noise level of training data is key to the performance of a prediction model. We intend to find out how much noise impacts the performance of prediction models in order to demonstrate the effects of overfitting a model.
+Noise level of training data is key to the performance of a prediction model. In the real world, there are cases where the machine learning model ends up training on corrupted data, whether intended or not. We intend to find out how much training on noisy data impacts the performance of prediction models in order to demonstrate the effects of overfitting a model.
 
 ### What is overfitting?
 
